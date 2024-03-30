@@ -1,9 +1,29 @@
+background-color{
+  background-color: rgb(0, 5, 5);(0, 100%, 70%);
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: solid rgba(251, 119, 12, 0.905);
+  color: rgba(53, 222, 240, 0.929);
+}
+<!--or!-->
+nav a:hover {
+  color: var(--light);
+}
+
+nav a {
+  background-color: black;
+  color: var--navlink- rgb 247, 250, 250
+  font-weight: bold;
+  text-decoration: solid;
+}
 .container{
   display: flex;
   flex-direction: row;
-}
+  width: 100%;
+  }
 
-/* css variables*/
 .box{
   width:20px;
   height:10px;
@@ -22,9 +42,8 @@
   background-color: aqua;(0, 100%, 70%);
 }
 
-navlist ::backdrop
-.topnav {
-  background-color: #010b0e;
+ {
+  
   overflow: hidden;
   .float-right{
     float:right;
@@ -34,13 +53,6 @@ navlist ::backdrop
     padding-right:10px;
   }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: solid pink;
-  color: rgba(53, 222, 240, 0.929);
-}
-
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #c509ef;
   color: white;
@@ -63,14 +75,20 @@ body {
   height: 100vh;
 }
 
-.container {
-  width: 100%;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #cffd04d4;
+  color: #f907c0;
+}
+
 
 @keyframes background {
   to {
     background: #555;
-    text-shadow: 0 0.1em 0.1em #111;
+    text-shadow: 0 0.1em 0.1em #012f33;
   }
 }
 
@@ -80,11 +98,6 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
-  .border-animation {
-    font-size: 6em;
-    line-height: 1em;    
-  }
 
  { 
       border-right: 2px solid pink;
@@ -104,14 +117,21 @@ body {
       top: 0;
     }
   
-    @media screen and (max-width: 700px) {
-      body {
-        background-color: black;
-      }
-    } 
+@media screen and (max-width: 700px) {
+  body {
+    background-color: black;
+  }
+} 
   
-    @media screen and (max-width: 480px) {
-      body {
-        background-color: yellow;
-      }
-    } 
+@media screen and (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (max-width: 1200px) {
+  .border-animation {
+    font-size: 5em;
+    line-height: 1em;    
+  }
+}
