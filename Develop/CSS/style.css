@@ -22,14 +22,12 @@ background-color{
   height: 100vh;
 }
 
-.topnav a.active {
+.nav a.active {
   background-color: #c509ef;
   color: white;
+  float-right{
+    float:right;}
 }
-    
-float-right{
-  float:right;
-    }
     
 .nav a: {
     background-color: var(--black);
