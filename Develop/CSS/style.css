@@ -9,7 +9,7 @@ background-color{
 }
 
 
-.body {
+body {
   font-size: 16px;
   padding: 10px;
   background: #04f631a8;
@@ -29,7 +29,7 @@ background-color{
     float:right;}
 }
     
-.nav a: {
+.nav a {
     background-color: var(--black);
     color: var--navlink- rgb 247, 250, 250
     font-weight: bold;
